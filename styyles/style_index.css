@@ -1,0 +1,121 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #2c3e50;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ecf0f1 !important;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #3498db !important;
+}
+
+.category-btn {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.category-btn:hover {
+    background-color: #2980b9;
+}
+
+.product-card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.cart-section {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 250px;
+    z-index: 100;
+}
+
+.cart-items {
+    margin-bottom: 10px;
+}
+
+.cart-items p {
+    margin: 5px 0;
+}
+
+.cart-items button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart-items button:hover {
+    background-color: #2980b9;
+}
+
+.cart-section .btn {
+    margin-top: 10px;
+}
+
+/* Estilos adicionales para tu página */
+.punto-venta-container {
+    padding: 20px;
+}
+
+h2, h3 {
+    color: #2c3e50;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"], select {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card h4 {
+    margin: 10px 0;
+}

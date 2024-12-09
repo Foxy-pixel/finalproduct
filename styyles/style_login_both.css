@@ -1,0 +1,81 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+/* Contenedor del login */
+.login-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+.login-container h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+/* Estilo de inputs y botón */
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.login-container input::placeholder {
+    color: #d3d3d3;
+}
+
+.login-container button {
+    background: #1e3c72;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 1rem;
+}
+
+.login-container button:hover {
+    background: #2a5298;
+}
+
+/* Mensaje de error */
+.login-container .error {
+    background: #ff4d4d;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Responsividad */
+@media (max-width: 500px) {
+    .login-container {
+        padding: 1.5rem;
+    }
+
+    .login-container h1 {
+        font-size: 1.5rem;
+    }
+}
